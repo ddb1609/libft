@@ -19,7 +19,7 @@ char
 	size_t	j;
 	char	*str;
 
-	if (!s)
+	if (!s) 
 		return (0);
 	if (start > ft_strlen(s))
 		return (ft_strdup(""));
