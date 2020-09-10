@@ -6,7 +6,7 @@
 #    By: ddel-bla <ddel-bla@student.42madrid.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/07/08 08:22:45 by ddel-bla          #+#    #+#              #
-#    Updated: 2020/09/08 14:28:57 by ddel-bla         ###   ########.fr        #
+#    Updated: 2020/09/10 17:01:41 by ddel-bla         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 SRCS		=	ft_memset.c ft_bzero.c ft_memcpy.c ft_memccpy.c \
@@ -25,7 +25,7 @@ CC			=	gcc
 
 RM			=	rm -f
 
-CFLAGS		=	-Wall -Wextra -Werror -I.
+CFLAGS		=	-Wall -Wextra -Werror
 
 NAME		=	libft.a
 
