@@ -6,7 +6,7 @@
 /*   By: ddel-bla <ddel-bla@student.42madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 08:23:28 by ddel-bla          #+#    #+#             */
-/*   Updated: 2020/09/08 16:20:28 by ddel-bla         ###   ########.fr       */
+/*   Updated: 2020/09/10 02:23:51 by ddel-bla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,6 @@ int
 	int			neg;
 	long int	res;
 
-	if (!nptr)
-		return (0);
 	i = 0;
 	while (nptr[i] == '\t' || nptr[i] == '\n' || nptr[i] == '\v' ||
 			nptr[i] == '\f' || nptr[i] == '\r' || nptr[i] == ' ')
