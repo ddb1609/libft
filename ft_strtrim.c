@@ -40,6 +40,8 @@ char
 	end = ft_strlen(s1);
 	while (end > start && ft_in_set(s1[end - 1], set))
 		end--;
+	if (end - start == 0)
+		return (ft_strdup(""));
 	str = (char*)malloc(sizeof(*s1) * (end - start + 1));
 	if (!str)
 		return (NULL);
