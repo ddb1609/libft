@@ -19,7 +19,9 @@ char
 	size_t	j;
 	char	*str;
 
-	if (!s || start > ft_strlen(s))
+	if (!s)
+		return (0);
+	if (start > ft_strlen(s))
 		return (ft_strdup(""));
 	str = (char*)malloc(sizeof(*s) * (len + 1));
 	if (!str)
